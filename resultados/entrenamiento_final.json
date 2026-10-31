@@ -1,0 +1,19 @@
+{
+  "config": {
+    "frac_exploracion": 0.75,
+    "frecuencia_target": 1000,
+    "tasa_aprendizaje": 0.0005
+  },
+  "kwargs_agente": {
+    "frecuencia_target": 1000,
+    "tasa_aprendizaje": 0.0005,
+    "epsilon_inicial": 1.0,
+    "epsilon_final": 0.01,
+    "decaimiento_epsilon": 0.9948962130443358
+  },
+  "episodios": 1200,
+  "semilla": 42,
+  "pasos_totales": 425905,
+  "tiempo_s": 1207.5,
+  "epsilon_final": 0.01
+}
