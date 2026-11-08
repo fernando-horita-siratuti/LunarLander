@@ -1,0 +1,40 @@
+{
+  "config": {
+    "frac_exploracion": 0.75,
+    "frecuencia_target": 1000,
+    "tasa_aprendizaje": 0.0005
+  },
+  "episodios": 1200,
+  "n_eval": 50,
+  "eval_seed": 60000,
+  "semillas": [
+    11,
+    23,
+    37,
+    41,
+    53,
+    67,
+    71,
+    83,
+    97,
+    109
+  ],
+  "variantes": {
+    "DQN completo": [
+      true,
+      true
+    ],
+    "Sin replay": [
+      false,
+      true
+    ],
+    "Sin target": [
+      true,
+      false
+    ],
+    "Sin ambos": [
+      false,
+      false
+    ]
+  }
+}
